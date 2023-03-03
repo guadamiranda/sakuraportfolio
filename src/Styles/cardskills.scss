@@ -1,0 +1,56 @@
+@import '../Styles/colors.scss';
+
+.card-skill{
+    height: 55vh;
+    width: 50vw;
+    background-color: var(--ligthPink);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container{
+        height: 53vh;
+        width: 49vw;
+        background-color: var(--ligthPink);
+        border-radius: 8px;
+        border: 2px dashed var(--white);
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    &__icon-border{
+        border: 2px solid var(--nudePink);
+        color: var(--white);
+        font-size: 40px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    &__information{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    &__container-icons{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__icon{
+        color: var(--nudePink);
+    }
+
+    &__icon-information-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 40px;
+    }
+}

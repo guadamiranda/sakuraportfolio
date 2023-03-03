@@ -5,7 +5,7 @@ export const Navbar = () => {
     return(
         <div className='navbar'>
             <div className='navbar__left-size'>
-                <img className='navbar__logo' src={sakuraLogo}></img>
+                <img className='navbar__logo' alt='sakuraLogo' src={sakuraLogo}></img>
             </div>
                 
             <div className='navbar__rigth-size'>
