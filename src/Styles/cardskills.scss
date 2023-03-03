@@ -10,8 +10,8 @@
     justify-content: center;
 
     &__container{
-        height: 53vh;
-        width: 49vw;
+        height: 95%;
+        width: 97%;
         background-color: var(--ligthPink);
         border-radius: 8px;
         border: 2px dashed var(--white);
@@ -35,6 +35,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-left: 10px;
+        color: var(--white)
     }
 
     &__container-icons{
